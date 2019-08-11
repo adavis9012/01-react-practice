@@ -18,6 +18,10 @@ const app = () => {
     <div className="App">
       <UserInput defaultUserName={userState.userName} userChange={changeUsernameHandler}/>
       <UserOutput userName={userState.userName} />
+      <hr />
+      <UserOutput userName={'Another Name'} />
+      <hr />
+      <UserOutput />
     </div>
   );
 };
